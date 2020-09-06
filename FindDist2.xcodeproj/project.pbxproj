@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EABA264216E1B7E00B76C36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABA263216E1B7E00B76C36 /* AppDelegate.swift */; };
+		1EABA266216E1B7E00B76C36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EABA265216E1B7E00B76C36 /* ViewController.swift */; };
+		1EABA269216E1B7E00B76C36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EABA267216E1B7E00B76C36 /* Main.storyboard */; };
+		1EABA26B216E1B8400B76C36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EABA26A216E1B8400B76C36 /* Assets.xcassets */; };
+		1EABA26E216E1B8400B76C36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EABA26C216E1B8400B76C36 /* LaunchScreen.storyboard */; };
+		1EABA276216E634D00B76C36 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EABA275216E634D00B76C36 /* MapKit.framework */; };
+		6143C4DBFCD8554F717E9B2C /* Pods_FindDist2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7CC102A3F457777DF311E9 /* Pods_FindDist2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1EABA260216E1B7E00B76C36 /* FindDist2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindDist2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EABA263216E1B7E00B76C36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EABA265216E1B7E00B76C36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EABA268216E1B7E00B76C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EABA26A216E1B8400B76C36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EABA26D216E1B8400B76C36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EABA26F216E1B8400B76C36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EABA275216E634D00B76C36 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9B7CC102A3F457777DF311E9 /* Pods_FindDist2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindDist2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F448951CE0E184BE60C319 /* Pods-FindDist2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDist2.release.xcconfig"; path = "Pods/Target Support Files/Pods-FindDist2/Pods-FindDist2.release.xcconfig"; sourceTree = "<group>"; };
+		EE44A99536B3EF216A527A73 /* Pods-FindDist2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindDist2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FindDist2/Pods-FindDist2.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EABA25D216E1B7E00B76C36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EABA276216E634D00B76C36 /* MapKit.framework in Frameworks */,
+				6143C4DBFCD8554F717E9B2C /* Pods_FindDist2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EABA257216E1B7D00B76C36 = {
+			isa = PBXGroup;
+			children = (
+				1EABA262216E1B7E00B76C36 /* FindDist2 */,
+				1EABA261216E1B7E00B76C36 /* Products */,
+				A3DACDB76F35B0ED114141E2 /* Pods */,
+				8567B86D25E77A76A3690682 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1EABA261216E1B7E00B76C36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EABA260216E1B7E00B76C36 /* FindDist2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EABA262216E1B7E00B76C36 /* FindDist2 */ = {
+			isa = PBXGroup;
+			children = (
+				1EABA263216E1B7E00B76C36 /* AppDelegate.swift */,
+				1EABA265216E1B7E00B76C36 /* ViewController.swift */,
+				1EABA267216E1B7E00B76C36 /* Main.storyboard */,
+				1EABA26A216E1B8400B76C36 /* Assets.xcassets */,
+				1EABA26C216E1B8400B76C36 /* LaunchScreen.storyboard */,
+				1EABA26F216E1B8400B76C36 /* Info.plist */,
+			);
+			path = FindDist2;
+			sourceTree = "<group>";
+		};
+		8567B86D25E77A76A3690682 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EABA275216E634D00B76C36 /* MapKit.framework */,
+				9B7CC102A3F457777DF311E9 /* Pods_FindDist2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3DACDB76F35B0ED114141E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE44A99536B3EF216A527A73 /* Pods-FindDist2.debug.xcconfig */,
+				A3F448951CE0E184BE60C319 /* Pods-FindDist2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EABA25F216E1B7E00B76C36 /* FindDist2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EABA272216E1B8400B76C36 /* Build configuration list for PBXNativeTarget "FindDist2" */;
+			buildPhases = (
+				E63954FC7E71BC2BF9152EF9 /* [CP] Check Pods Manifest.lock */,
+				1EABA25C216E1B7E00B76C36 /* Sources */,
+				1EABA25D216E1B7E00B76C36 /* Frameworks */,
+				1EABA25E216E1B7E00B76C36 /* Resources */,
+				BA58A8F382458D5DD9EBC750 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindDist2;
+			productName = FindDist2;
+			productReference = 1EABA260216E1B7E00B76C36 /* FindDist2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EABA258216E1B7D00B76C36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Felipe Valencia ";
+				TargetAttributes = {
+					1EABA25F216E1B7E00B76C36 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1EABA25B216E1B7D00B76C36 /* Build configuration list for PBXProject "FindDist2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EABA257216E1B7D00B76C36;
+			productRefGroup = 1EABA261216E1B7E00B76C36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EABA25F216E1B7E00B76C36 /* FindDist2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EABA25E216E1B7E00B76C36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EABA26E216E1B8400B76C36 /* LaunchScreen.storyboard in Resources */,
+				1EABA26B216E1B8400B76C36 /* Assets.xcassets in Resources */,
+				1EABA269216E1B7E00B76C36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA58A8F382458D5DD9EBC750 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FindDist2/Pods-FindDist2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FindDist2/Pods-FindDist2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63954FC7E71BC2BF9152EF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindDist2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EABA25C216E1B7E00B76C36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EABA266216E1B7E00B76C36 /* ViewController.swift in Sources */,
+				1EABA264216E1B7E00B76C36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1EABA267216E1B7E00B76C36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EABA268216E1B7E00B76C36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EABA26C216E1B8400B76C36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EABA26D216E1B8400B76C36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EABA270216E1B8400B76C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EABA271216E1B8400B76C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EABA273216E1B8400B76C36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE44A99536B3EF216A527A73 /* Pods-FindDist2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMFKXP2CR;
+				INFOPLIST_FILE = FindDist2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Valencia.FindDist2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1EABA274216E1B8400B76C36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F448951CE0E184BE60C319 /* Pods-FindDist2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KMFKXP2CR;
+				INFOPLIST_FILE = FindDist2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Valencia.FindDist2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EABA25B216E1B7D00B76C36 /* Build configuration list for PBXProject "FindDist2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EABA270216E1B8400B76C36 /* Debug */,
+				1EABA271216E1B8400B76C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EABA272216E1B8400B76C36 /* Build configuration list for PBXNativeTarget "FindDist2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EABA273216E1B8400B76C36 /* Debug */,
+				1EABA274216E1B8400B76C36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EABA258216E1B7D00B76C36 /* Project object */;
+}
